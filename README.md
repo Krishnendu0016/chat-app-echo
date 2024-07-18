@@ -72,25 +72,7 @@ This is a full-stack chat application using React for the frontend and Express f
 
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```
-
-- **backend/**: Contains the backend server code.
-  - **config/**: Configuration files (e.g., database connection).
-  - **controllers/**: Functions to handle requests.
-  - **models/**: Mongoose schemas and models.
-  - **routes/**: Express route definitions.
-  - **server.js**: Entry point for the backend server.
-  - **.env**: Environment variables file.
-- **frontend/**: Contains the frontend source code.
-  - **public/**: Contains the HTML file and other static assets.
-  - **src/**: Contains the source code for the application.
-    - **Components/**: Directory for reusable components.
-    - **Context/**: Contains the ChatProvider context.
-    - **Pages/**: Contains the page components (Homepage and Chatpage).
-    - **App.js**: Main application component.
-    - **index.js**: Entry point of the application.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
----
