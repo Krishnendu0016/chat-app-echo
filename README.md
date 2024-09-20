@@ -14,13 +14,14 @@ This project is a full-fledged chat application built using the MERN stack (Mong
 - **Persistent Data Storage**: All messages and chat history are stored in MongoDB.
 
 
-## Tech Stack
+
+## Key Technologies
 
 - **Frontend**: React, Chakra UI
-- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt.js
-- **Real-Time Communication**: Socket.IO
-- **Authentication**: JWT (JSON Web Tokens), Bcrypt.js for password encryption
-- **Database**: MongoDB for storing user and message data
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt.js, Socket.IO
+- **Real-Time Messaging**: Socket.IO for instant message delivery.
+- **Authentication**: User registration and login are secured using JSON Web Tokens (JWT) and password encryption with Bcrypt.
+- **Database**: MongoDB for message and user data storage.
 
 
 ### Utilities
