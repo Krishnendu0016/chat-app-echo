@@ -17,11 +17,29 @@ This project is a full-fledged chat application built using the MERN stack (Mong
 
 ## Tech Stack
 
-- **Frontend**: React, Chakra UI
-- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt.js
-- **Real-Time Communication**: Socket.IO
-- **Authentication**: JWT (JSON Web Tokens), Bcrypt.js for password encryption
-- **Database**: MongoDB for storing user and message data
+### Backend
+- **Node.js**: JavaScript runtime for building the server-side of the application.
+- **Express.js**: Web framework for Node.js to handle routing and API requests.
+- **MongoDB**: NoSQL database for storing user data, messages, and chats.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB, used for schema modeling and interactions with the database.
+- **JWT (JSON Web Tokens)**: Secure user authentication and session management.
+- **Bcrypt.js**: Password hashing for secure user authentication.
+- **Socket.IO**: Enables real-time, bi-directional communication between the server and clients.
+
+### Frontend
+- **React.js**: JavaScript library for building dynamic user interfaces.
+- **Chakra UI**: Component library for creating responsive and accessible user interfaces with ease.
+
+### Real-Time Messaging
+- **Socket.IO**: Facilitates real-time message delivery between users for both one-on-one and group chats.
+
+### Authentication
+- **JWT (JSON Web Tokens)**: Secures user registration and login with stateless authentication.
+- **Bcrypt.js**: Hashes and secures passwords before storing them in the database.
+
+### Database
+- **MongoDB**: Stores all user data, chat history, and messages, providing a scalable and flexible NoSQL database solution.
+
 
 
 
