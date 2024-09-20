@@ -2,29 +2,26 @@
 
 # Chat Application Echo
 
-This is a full-stack chat application using React for the frontend and Express for the backend. It utilizes Chakra UI for styling and React Router for navigation. The app supports routing between a homepage and a chat page and uses a custom context provider for managing chat state. The backend uses MongoDB for database operations and Socket.IO for real-time communication.
-
+This project is a full-fledged chat application built using the MERN stack (MongoDB, Express.js, React, Node.js). It includes one-on-one and group messaging features, real-time communication with Socket.IO, and user authentication with JWT. The application allows users to send and receive messages, manage their profiles, and receive notifications.
 
 ## Features
-- **Chakra UI Integration**: Provides a consistent and responsive UI.
-- **React Router**: Enables navigation between the homepage and chat page.
-- **Chat Context**: Manages chat state throughout the application.
-- **Real-time Communication**: Uses Socket.IO for real-time messaging.
-- **Secure Authentication**: Implements JWT for secure authentication.
+- **One-on-One Messaging**: Users can engage in private chats.
+- **Group Chat Functionality**: Users can create and manage group chats.
+- **Real-Time Messaging**: Messages are delivered instantly using Socket.IO.
+- **User Profiles**: Each user can customize their profile with pictures and information.
+- **Notifications**: Real-time notifications alert users of new messages.
+- **User Authentication**: Secure user registration and login with encrypted passwords.
+- **Persistent Data Storage**: All messages and chat history are stored in MongoDB.
+
 
 ## Tech Stack
-### Frontend
-- **React**: JavaScript library for building user interfaces.
-- **Chakra UI**: A simple, modular, and accessible component library.
-- **React Router**: Declarative routing for React applications.
 
-### Backend
-- **Node.js**: JavaScript runtime for building server-side applications.
-- **Express**: Fast, unopinionated, minimalist web framework for Node.js.
-- **MongoDB**: NoSQL database for storing chat data.
-- **Mongoose**: Elegant MongoDB object modeling for Node.js.
-- **Socket.IO**: Enables real-time bidirectional event-based communication.
-- **JWT**: Secure token-based authentication.
+- **Frontend**: React, Chakra UI
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt.js
+- **Real-Time Communication**: Socket.IO
+- **Authentication**: JWT (JSON Web Tokens), Bcrypt.js for password encryption
+- **Database**: MongoDB for storing user and message data
+
 
 ### Utilities
 - **dotenv**: Loads environment variables from a .env file.
